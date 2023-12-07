@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prathmesh Kamble</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="main_block">
+      <input
+        class="input_box"
+        id="inputOne"
+        type="number"
+        placeholder="Enter start number"
+        autofocus
+      />
+      <input
+        class="input_box"
+        id="inputTwo"
+        type="number"
+        placeholder="Enter end number"
+      />
+      <button class="button_details" id="openPopupButton" onclick="openPopup()">
+        Details
+      </button>
+    </div>
+
+    <div id="popup">
+      <div id="popupButtons">
+        <button id="tab1" onclick="getPrimesInRangeForAllNumbers()">
+          OUTPUT 1
+        </button>
+        <button id="tab2" onclick="getPrimesInRangeForPrimeNumbers()">
+          OUTPUT 2
+        </button>
+        <button id="tab3" onclick="closePopup()">X</button>
+      </div>
+      <div id="tableContainer"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

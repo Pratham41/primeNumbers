@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+.main_block {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_box {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(116, 52, 176);
+  outline: none;
+  color: blueviolet;
+  font-weight: bold;
+}
+.button_details {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  margin: 10px 0;
+}
+#popup {
+  display: none;
+  min-height: 50vh;
+  border: 1px solid blueviolet;
+  margin: 0 auto;
+  width: 70vh;
+}
+
+#popupButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#tab1 {
+  width: 45%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+#tab2 {
+  width: 45%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+#tab3 {
+  width: 10%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: red;
+  font-weight: bold;
+  border: none;
+}
+
+#tableContainer {
+  height: 50vh;
+  width: 100%;
+  overflow-y: scroll;
+  color: blueviolet;
+}
